@@ -5,8 +5,6 @@ public class Candidato implements Comparable<Candidato> {
 	private boolean deficiente;
 	private int idade;
 	
-	
-
 	public Candidato(int nota, boolean deficiente, int idade) {
 		this.nota = nota;
 		this.deficiente = deficiente;
