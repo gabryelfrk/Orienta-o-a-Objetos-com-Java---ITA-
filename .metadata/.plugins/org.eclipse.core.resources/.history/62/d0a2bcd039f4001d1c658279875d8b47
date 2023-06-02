@@ -1,0 +1,14 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TesteContaCorrente {
+
+	@Test
+	void deposito() {
+		ContaCorrente cc = new ContaCorrente();
+		cc.depositar(200);
+		assertEquals(cc.saldo, 200);
+	}
+
+}

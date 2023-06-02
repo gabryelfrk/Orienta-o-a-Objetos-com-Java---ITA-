@@ -1,0 +1,11 @@
+
+public class ContaEspecial extends ContaCorrente {
+	
+	// Não pode ficar negativo
+	
+	int limite;
+	
+	ContaEspecial(int limite) {
+		this.limite = limite;
+	}
+}

@@ -1,0 +1,17 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class Corrida {
+	
+	private int pista;
+	private Map<CarroDeCorrida, Integer> carros = new HashMap<>();
+
+	public Corrida(int tamanho) {
+		pista = tamanho;
+	}
+	
+	public void adicionaCarro(CarroDeCorrida carro) {
+		
+	}
+
+}

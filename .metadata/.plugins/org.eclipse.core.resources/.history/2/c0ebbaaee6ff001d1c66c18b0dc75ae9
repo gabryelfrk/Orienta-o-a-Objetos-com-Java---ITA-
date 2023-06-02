@@ -1,0 +1,22 @@
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Pilha p = new Pilha(10);
+		p.empilhar("Eduardo");
+		p.empilhar("Maria");
+		p.empilhar("José");
+		System.out.println(p.topo() +" - TOPO");
+		System.out.println(p.tamanho()+ " - TAMANHO");
+		
+		p.setTopo(6);
+		
+		// Desempilhando
+		System.out.println("--------------");
+		System.out.println(p.desempilhar().toString().toUpperCase() +"- DESEMPILHADO");
+		System.out.println(p.topo().toString().toUpperCase() +" - TOPO");
+		System.out.println(p.tamanho() + " - TAMANHO");
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+
+public class Pilha {
+	
+	private Object[] elementos; // Array de objetos para guardar os elementos da pilha
+	
+
+	public Pilha() {
+	}
+
+}

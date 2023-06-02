@@ -1,0 +1,10 @@
+
+public class Pilha {
+	
+	private Object[] elementos; // Array de objetos
+
+	public Pilha() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

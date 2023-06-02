@@ -1,0 +1,3 @@
+O objetivo deste curso é fazer você compreender os princípios de orientação a objetos por meio da linguagem Java e saber como aplicar eficientemente esses princípios na prática quando projetando e desenvolvendo software de maneira ágil. Os conceitos discutidos e experimentados por você neste curso serão a base para você poder compreender os novos conceitos apresentados nos cursos seguintes deste programa de especialização: Programação Java e Desenvolvimento Java!
+
+Professores: Clovis Fernandes & Eduardo Guerra

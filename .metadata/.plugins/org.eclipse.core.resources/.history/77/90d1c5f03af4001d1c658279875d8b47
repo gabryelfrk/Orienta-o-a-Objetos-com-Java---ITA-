@@ -1,0 +1,5 @@
+
+public class ContaEspecial extends ContaCorrente {
+	
+	int limite;
+}

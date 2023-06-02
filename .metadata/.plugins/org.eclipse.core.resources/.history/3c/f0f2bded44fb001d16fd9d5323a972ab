@@ -1,0 +1,50 @@
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
+class TesteCarro {
+	
+	Carro c;
+	
+	@BeforeAll
+	public int inicializaCarro() {
+		c = new Carro("teste", 10, 100);
+	}
+	
+	@Test
+	void testCarroParado() {
+		Carro carro = new Carro();
+		assertEquals(0, carro.getVelocidade());
+	}
+
+	@Test
+	void testAcelarar() {
+		Carro carro = new Carro();
+		carro.potencia = 10;
+		carro.acelarar();
+		assertEquals(10, carro.getVelocidade());
+	}
+	
+	@Test
+	void testFrear() {
+		Carro carro = new Carro();
+		carro.potencia = 10;
+		carro.acelarar();
+		carro.frear();
+		assertEquals(5, carro.getVelocidade());
+	}
+	
+	@Test
+	void testFrearAteZero() {
+		Carro carro = new Carro();
+		carro.potencia = 10;
+		carro.acelarar();
+		carro.frear();
+		carro.frear();
+		carro.frear();
+		carro.frear();
+		assertEquals(0, carro.getVelocidade());
+	}
+
+}

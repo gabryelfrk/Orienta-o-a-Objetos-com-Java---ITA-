@@ -1,0 +1,19 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class TesteContaCorrente {
+
+	@Test
+	void deposito() {
+		ContaCorrente cc = new ContaCorrente();
+		cc.depositar(200);
+		assertEquals(cc.saldo, 200);
+		
+		// Durante as aulas, foi passado que o formato de assertEquals deveria ser:
+		// Primeiro o valor esperado e depois o parâmetro assertEquals(200, cc.saldo). 
+		// Porém aqui é mostrado o contrário: assertEquals(cc.saldo, 200).
+		// Como é um comparativo, neste caso os dois formatos são válidos.
+	}
+
+}

@@ -1,0 +1,14 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.Before;
+import org.junit.jupiter.api.Test;
+
+class TesteContaEspecial {
+
+	@Before
+	public void inicializaConta() {
+		cc = new ContaEspecial();
+		cc.depositar(200);
+	}
+
+}

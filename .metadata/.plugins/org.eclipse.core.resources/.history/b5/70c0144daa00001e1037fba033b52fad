@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		List<Candidato> lista = new ArrayList<>();
+		lista.add(new Candidato(80, true, 30));
+		lista.add(new Candidato(80, false, 25));
+		lista.add(new Candidato(80, false, 28));
+		lista.add(new Candidato(90, false, 20));
+		
+		Collections.sort(lista);
+		
+		// Está ordenando do menor para o maior, o 1º colocado aparece no fim
+		for (Candidato c: lista) {
+			System.out.println(c);
+		}
+	}
+
+}

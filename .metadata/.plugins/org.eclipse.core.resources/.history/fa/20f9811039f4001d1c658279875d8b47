@@ -1,0 +1,15 @@
+
+public class ContaCorrente {
+	
+	int saldo;
+	
+	public int sacar(int valor) {
+		if (valor > saldo) {
+			return 0;
+		}
+	}
+	
+	public void somar(int valor) {
+		saldo += valor;
+	}
+}
