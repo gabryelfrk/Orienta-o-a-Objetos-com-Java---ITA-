@@ -1,6 +1,0 @@
-public abstract class CarroDeCorrida {
-	
-	protected int velocidade;
-	protected int velocidadeMaxima;
-	protected String nome;
-}
